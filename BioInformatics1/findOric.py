@@ -1,0 +1,26 @@
+
+
+
+oriC = "atcaatgatcaacgtaagcttctaagcatgatcaaggtgctcacacagtttatccacaacctgagtggatgacatcaagataggtcgttgtatctccttcctctcgtactctcatgaccacggaaagatgatcaagagaggatgatttcttggccatatcgcaatgaatacttgtgacttgtgcttccaattgacatcttcagcgccatattgcgctggccaaggtgacggagcgggattacgaaagcatgatcatggctgttgttctgtttatcttgttttgactgagacttgttaggatagacggtttttcatcactgactagccaaagccttactctgcctgacatcgaccgtaaattgataatgaatttacatgcttccgcgacgatttacctcttgatcatcgatccgattgaagatcttcaattgttaattctcttgcctcgactcatagccatgatgagctcttgatcatgtttccttaaccctctattttttacggaagaatgatcaagctgctgctcttgatcatcgtttc"
+oriC = """atcaatgatcaacgtaagcttctaagcatgatcaaggtgctcacacagtttatccacaac
+ctgagtggatgacatcaagataggtcgttgtatctccttcctctcgtactctcatgacca
+cggaaagatgatcaagagaggatgatttcttggccatatcgcaatgaatacttgtgactt
+gtgcttccaattgacatcttcagcgccatattgcgctggccaaggtgacggagcgggatt
+acgaaagcatgatcatggctgttgttctgtttatcttgttttgactgagacttgttagga
+tagacggtttttcatcactgactagccaaagccttactctgcctgacatcgaccgtaaat
+tgataatgaatttacatgcttccgcgacgatttacctcttgatcatcgatccgattgaag
+atcttcaattgttaattctcttgcctcgactcatagccatgatgagctcttgatcatgtt
+tccttaaccctctattttttacggaagaatgatcaagctgctgctcttgatcatcgtttc"""
+
+
+
+if __name__ == "__main__":
+	f = open('vibrio_cholerae.txt','r')
+	oriC = oriC.replace('\n','')
+	st = f.read()
+	st = st.replace('\n','')
+	print len(st)
+	#i = st.index(oriC)
+	#print i
+
+
